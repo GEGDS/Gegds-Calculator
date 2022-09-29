@@ -4,9 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Gegds-Calculator</title>
 </head>
 <body>
+
+    <div id="header">
+        <h1>Gegds-Calculator</h1>
+    </div>
+
+<div id="countainer">
+   
+
+    <table>
+        <p id="result"></p>
+        <tr>
+            <td><button onclick="insert('7')">7</button></td>
+            <td><button onclick="insert('8')">8</button></td>
+            <td><button onclick="insert('9')">9</button></td>
+            <td><button>/</button></td>
+            <td><button>*</button></td>
+        </tr>
+
+        <tr>
+            <td><button onclick="insert('4')">4</button></td>
+            <td><button onclick="insert('5')">5</button></td>
+            <td><button onclick="insert('6')">6</button></td>
+            <td><button>-</button></td>
+            <td><button>+</button></td>
+        </tr>
+
+        <tr>
+            <td><button onclick="insert('1')">1</button></td>
+            <td><button onclick="insert('2')">2</button></td>
+            <td><button onclick="insert('3')">3</button></td>
+            <td><button>.</button></td>
+            <td><button>C</button></td>
+        </tr>
+
+        <tr>
+            <td colspan="2"><button class="btn0" onclick="insert('0')">0</button></td>
+            <td colspan="3"><button class="btnEqual">=</button></td>
+
+        </tr>
+        
+    </table>
+
+    <script src="./script.js"></script>
+</div>
     
 </body>
 </html>
